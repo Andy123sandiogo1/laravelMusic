@@ -127,3 +127,7 @@ Route::get('{all}', '\Common\Core\Controllers\HomeController@index')->where('all
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
